@@ -20,7 +20,7 @@ fi
 if curl --silent --head "${HTTPURL}" | grep -i "Content-Type: text/html; charset" >/dev/null; then
 
     if [ "${SOURCEIP}" == "github.com" ]; then
-        sudo git remote set-url origin "https://github.com/FalconChristmas/fpp.git"
+        sudo git remote set-url origin "https://github.com/jsamytaylor/ILUMIONmax-5.5.git"
     else
         sudo git remote set-url origin "http://${SOURCEIP}/git/"
     fi
